@@ -19,3 +19,9 @@ document.getElementById("formulario").addEventListener("submit", (e) => {
   }, 2500)
   e.target.reset();
 })
+
+$(document).ready(function () {
+  // habilitar todos los tooltip de bootstrap
+  $('[data-bs-toggle="tooltip"]').tooltip()
+})
+
